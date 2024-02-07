@@ -18,6 +18,9 @@ const userSchema = new Schema({
     type: Date,
     reqired: true,
   },
+  lastWorkedAt: {
+    type: Date,
+  },
 });
 
 module.exports = model('User', userSchema);

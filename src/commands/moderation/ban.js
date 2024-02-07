@@ -55,7 +55,7 @@ module.exports = {
     try {
       await targetUser.ban({ reason });
       await interaction.editReply(
-        `User ${targetUser} was banned <a:banned:1135145247568052304>\nReason: ${reason}`
+        `User ${targetUser} was banned\nReason: ${reason}`
       );
     } catch (error) {
       console.log(`There was an error when banning: ${error}`);

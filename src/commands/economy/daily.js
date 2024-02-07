@@ -53,7 +53,7 @@ module.exports = {
       await user.save();
 
       interaction.editReply(
-        `${dailyAmount} was added to your balance. Your new balance is ${user.balance}.`
+        `${dailyAmount} was added to your balance. Your new balance is ${user.balance}` // Feel free to add an emoji for the coin
       );
     } catch (error) {
       console.log(`Error with /daily: ${error}`);

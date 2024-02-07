@@ -53,7 +53,7 @@ module.exports = {
           { name: '`- Balance`', value: `\`${user.balance} \`` },
         ],
         footer: {
-          text: 'Bot - Created by ツfỈRË',
+          text: 'Basic Test Bot- Created by WastedLight',
           icon_url: '', // Bot's avatar or any other icon
         },
         timestamp: new Date(),

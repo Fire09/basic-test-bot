@@ -62,6 +62,7 @@ module.exports = {
       .setRequiredXP(calculateLevelXp(fetchedLevel.level))
       .setProgressBar('#FFE41E', 'COLOR')
       .setUsername(targetUserObj.user.username)
+      .setBackground("IMAGE", "https://cdn.discordapp.com/attachments/964568065796870164/1130926122427748393/bee2.png") // I will leave this image here but please change it LOL
       .setRankColor('#FFE41E', 'COLOR')
       .setLevelColor('#FFE41E', 'COLOR')
       .setCustomStatusColor('#FFE41E', 'COLOR')
